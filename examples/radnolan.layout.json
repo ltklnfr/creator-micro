@@ -1,0 +1,110 @@
+{
+  "name": "Creator Micro",
+  "vendorProductId": 1464657635,
+  "macros": [
+    "{+KC_LGUI}{+KC_LALT}c{-KC_LGUI}{-KC_LALT}",
+    "{+KC_LGUI}{+KC_LALT}v{-KC_LGUI}{-KC_LALT}",
+    "{+KC_LSFT}{+KC_LGUI}z{-KC_LSFT}{-KC_LGUI}",
+    "{+KC_LGUI}z{-KC_LGUI}",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "layers": [
+    [
+      "KC_ESC",
+      "A(KC_H)",
+      "A(KC_V)",
+      "TO(2)",
+      "MO(1)",
+      "KC_K",
+      "KC_G",
+      "KC_V",
+      "KC_LSFT",
+      "KC_A",
+      "KC_X",
+      "KC_C",
+      "S(KC_SPC)",
+      "KC_LALT",
+      "KC_LGUI",
+      "S(KC_E)"
+    ],
+    [
+      "KC_ESC",
+      "KC_P1",
+      "KC_P2",
+      "KC_ESC",
+      "KC_NO",
+      "KC_P3",
+      "KC_P4",
+      "KC_P5",
+      "G(KC_D)",
+      "KC_P6",
+      "KC_P7",
+      "KC_P8",
+      "LAG(KC_L)",
+      "KC_P9",
+      "KC_P0",
+      "LAG(KC_T)"
+    ],
+    [
+      "TO(0)",
+      "KC_J",
+      "KC_L",
+      "TO(3)",
+      "KC_BSPC",
+      "KC_K",
+      "KC_R",
+      "KC_V",
+      "A(KC_BSPC)",
+      "G(KC_L)",
+      "KC_X",
+      "KC_C",
+      "KC_MINS",
+      "KC_LALT",
+      "KC_LGUI",
+      "KC_EQL"
+    ],
+    [
+      "TO(2)",
+      "CUSTOM(0)",
+      "RGB_TOG",
+      "RGB_TOG",
+      "CUSTOM(7)",
+      "RGB_M_P",
+      "RGB_M_B",
+      "RGB_M_R",
+      "CUSTOM(8)",
+      "RGB_M_SW",
+      "RGB_M_SN",
+      "RGB_M_K",
+      "KC_NO",
+      "RGB_M_X",
+      "RGB_M_G",
+      "KC_NO"
+    ]
+  ],
+  "encoders": [
+    [
+      ["LSG(KC_COMM)", "LSG(KC_DOT)"],
+      ["LAG(KC_COMM)", "LAG(KC_DOT)"],
+      ["KC_RGHT", "KC_LEFT"],
+      ["RGB_SAI", "RGB_SAD"]
+    ],
+    [
+      ["G(KC_Z)", "LSG(KC_Z)"],
+      ["KC_LBRC", "KC_RBRC"],
+      ["G(KC_Z)", "C(S(KC_Z))"],
+      ["RGB_VAD", "RGB_VAI"]
+    ]
+  ]
+}
